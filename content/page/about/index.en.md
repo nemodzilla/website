@@ -59,4 +59,4 @@ Bachelor's Degree in Computer Science (Year 1 & 2)
 | 🛡️ Security | Wallix WCA-P · ALL4TEC Agile Risk Manager & EBIOS RM |
 | ♿ Inclusion | Companieros HandiManagement Label |
 
-<a href="/CV_MANCINI_Noemie_English_abbreviated.pdf" download class="btn-cv">📄 Download my CV</a>
+<a href="/CV_MANCINI_Noemie_English_abbreviated.pdf" class="btn-cv">📄 Download my CV</a>
