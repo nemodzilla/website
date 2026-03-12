@@ -1,0 +1,16 @@
+baseURL                = "https://nemodzilla.xyz/"
+languageCode           = "fr"
+title                  = "CTF Writeups"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage         = false
+
+[[module.imports]]
+    path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

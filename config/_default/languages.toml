@@ -1,0 +1,95 @@
+[fr]
+    languageName = "🇫🇷 Français"
+    title        = "CTF Writeups"
+    weight       = 1
+
+    [fr.params.sidebar]
+        subtitle = "🔐 Mes aventures CTF"
+
+    [[fr.menus.main]]
+        identifier = "home"
+        name       = "Accueil"
+        url        = "/"
+        weight     = 1
+        [fr.menus.main.params]
+            icon = "home"
+
+    [[fr.menus.main]]
+        identifier = "writeups"
+        name       = "Writeups"
+        url        = "/post/"
+        weight     = 2
+        [fr.menus.main.params]
+            icon = "hash"
+
+    [[fr.menus.main]]
+        identifier = "categories"
+        name       = "Catégories"
+        url        = "/categories/"
+        weight     = 3
+        [fr.menus.main.params]
+            icon = "categories"
+
+    [[fr.menus.main]]
+        identifier = "search"
+        name       = "Recherche"
+        url        = "/search/"
+        weight     = 4
+        [fr.menus.main.params]
+            icon = "search"
+
+    [[fr.menus.main]]
+        identifier = "archives"
+        name       = "Archives"
+        url        = "/archives/"
+        weight     = 5
+        [fr.menus.main.params]
+            icon = "archives"
+
+[en]
+    languageName = "🇬🇧 English"
+    title        = "CTF Writeups"
+    weight       = 2
+
+    [en.params.sidebar]
+        subtitle = "🔐 My CTF adventures"
+
+    [[en.menus.main]]
+        identifier = "home"
+        name       = "Home"
+        url        = "/"
+        weight     = 1
+        [en.menus.main.params]
+            icon = "home"
+
+    [[en.menus.main]]
+        identifier = "writeups"
+        name       = "Writeups"
+        url        = "/post/"
+        weight     = 2
+        [en.menus.main.params]
+            icon = "hash"
+
+    [[en.menus.main]]
+        identifier = "categories"
+        name       = "Categories"
+        url        = "/categories/"
+        weight     = 3
+        [en.menus.main.params]
+            icon = "categories"
+
+    [[en.menus.main]]
+        identifier = "search"
+        name       = "Search"
+        url        = "/search/"
+        weight     = 4
+        [en.menus.main.params]
+            icon = "search"
+
+    [[en.menus.main]]
+        identifier = "archives"
+        name       = "Archives"
+        url        = "/archives/"
+        weight     = 5
+        [en.menus.main.params]
+            icon = "archives"
