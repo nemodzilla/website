@@ -53,3 +53,19 @@ git push
 ## Annuler le dernier commit (sans perdre les modifications)
 ```bash
 git reset --soft HEAD~1
+```
+
+## Rétablir une ancienne version
+
+# 1. Pour avoir le hash de la version
+```bash
+git log --oneline
+```
+
+# 2. Restaurer
+
+```bash
+git revert --no-commit XXXXXXX..HEAD
+git commit -m "Revert to vXX"
+git push
+```
