@@ -1,5 +1,5 @@
 ---
-title: Skynet
+title: Skynet [Unlocked]
 description: A vulnerable Terminator themed Linux machine.
 slug: tryhackme
 date: 2023-05-18 00:00:00+0000

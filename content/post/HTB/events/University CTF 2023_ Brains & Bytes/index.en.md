@@ -1,5 +1,5 @@
 ---
-title: University CTF 2023 Brains & Bytes
+title: University CTF 2023 Brains & Bytes [Unlocked]
 description: Event 
 slug: UniversityCTFHTB
 date: 2023-12-11 00:00:00+0000

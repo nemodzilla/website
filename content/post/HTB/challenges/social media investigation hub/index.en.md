@@ -3,7 +3,7 @@ title: "Social Media Investigation Hub [Locked]"
 description: "Writeup du challenge OSINT Social Media Investigation Hub sur HackTheBox"
 date: 2026-03-12
 slug: "htb-social-media-investigation-hub"
-image: /images/osint.png
+image: images/osint.png
 categories:
     - HackTheBox
 tags:
