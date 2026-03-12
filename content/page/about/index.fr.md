@@ -59,4 +59,4 @@ Licence Informatique (L1 & L2)
 | 🛡️ Sécurité | Wallix WCA-P · ALL4TEC Agile Risk Manager & EBIOS RM |
 | ♿ Inclusion | Label HandiManagement Companieros |
 
-<a href="/CV_MANCINI_Noémie_abrégé.pdf" download class="btn-cv">📄 Télécharger mon CV</a>
+<a href="/CV_MANCINI_Noemie_abrege.pdf" download class="btn-cv">📄 Télécharger mon CV</a>

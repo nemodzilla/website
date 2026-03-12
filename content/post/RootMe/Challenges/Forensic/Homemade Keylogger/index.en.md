@@ -1,5 +1,5 @@
 ---
-title: Homemade Keylogger
+title: Homemade Keylogger [Locked]
 description: RootMe - Homemade Keylogger
 slug: RMHomemadeKeylogger
 date: 2024-03-03 00:00:00+0000

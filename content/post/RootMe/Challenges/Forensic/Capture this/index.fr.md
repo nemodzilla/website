@@ -1,5 +1,5 @@
 ---
-title: Capture this
+title: Capture this [Locked]
 description: RootMe - Capture this
 slug: RMCaptureThis
 date: 2024-03-02 00:00:00+0000

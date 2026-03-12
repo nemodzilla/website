@@ -94,3 +94,18 @@
         [en.menus.main.params]
             icon = "archives"
 
+    [[fr.menus.main]]
+        identifier = "tips"
+        name       = "Astuces"
+        url        = "/fr/tips/"
+        weight     = 7
+        [fr.menus.main.params]
+            icon = "hash"
+
+    [[en.menus.main]]
+        identifier = "tips"
+        name       = "Tips"
+        url        = "/en/tips/"
+        weight     = 7
+        [en.menus.main.params]
+            icon = "hash"

@@ -1,5 +1,5 @@
 ---
-title: Analytics [1/2]
+title: Analytics [1/2] [Unlocked]
 description: HTB Machines
 slug: AnalyticsHTB
 date: 2024-01-28 00:00:00+0000

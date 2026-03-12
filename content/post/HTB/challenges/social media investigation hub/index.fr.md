@@ -1,5 +1,5 @@
 ---
-title: "Social Media Investigation Hub"
+title: "Social Media Investigation Hub [Locked]"
 description: "Writeup du challenge OSINT Social Media Investigation Hub sur HackTheBox"
 date: 2026-03-12
 slug: "htb-social-media-investigation-hub"

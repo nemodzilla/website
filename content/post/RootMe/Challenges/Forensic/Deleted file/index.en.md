@@ -1,5 +1,5 @@
 ---
-title: Deleted Files
+title: Deleted Files [Locked]
 description: RootMe - Deleted Files
 slug: RMDeletedFiles
 date: 2024-03-02 00:00:00+0000
