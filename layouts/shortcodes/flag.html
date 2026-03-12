@@ -1,0 +1,63 @@
+{{ $hash := .Get 0 }}
+{{ $id := .Get 1 | default "0" }}
+{{ $lang := .Page.Language.Lang }}
+
+{{ if eq $lang "fr" }}
+  {{ $hint := "Le flag est protégé par un mot de passe" }}
+  {{ $placeholder := "Mot de passe..." }}
+  {{ $btn := "Déverrouiller" }}
+  {{ $error := "❌ Mot de passe incorrect" }}
+  {{ $label := "🏴 Flag" }}
+{{ else }}
+  {{ $hint := "The flag is password protected" }}
+  {{ $placeholder := "Password..." }}
+  {{ $btn := "Unlock" }}
+  {{ $error := "❌ Wrong password" }}
+  {{ $label := "🏴 Flag" }}
+{{ end }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+
+<div class="flag-protected">
+  <div class="flag-locked" id="flag-{{ $id }}">
+    <div class="flag-icon">🚩</div>
+    <p class="flag-hint">
+      {{ if eq $lang "fr" }}Le flag est protégé par un mot de passe{{ else }}The flag is password protected{{ end }}
+    </p>
+    <div class="flag-input-group">
+      <input 
+        type="password" 
+        id="flag-input-{{ $id }}"
+        placeholder="{{ if eq $lang "fr" }}Mot de passe...{{ else }}Password...{{ end }}"
+        onkeydown="if(event.key==='Enter') unlockFlag('{{ $id }}', '{{ $hash }}', this.value)"
+      />
+      <button onclick="unlockFlag('{{ $id }}', '{{ $hash }}', document.getElementById('flag-input-{{ $id }}').value)">
+        {{ if eq $lang "fr" }}Déverrouiller{{ else }}Unlock{{ end }}
+      </button>
+    </div>
+    <p class="flag-error" id="flag-error-{{ $id }}" style="display:none">
+      {{ if eq $lang "fr" }}❌ Mot de passe incorrect{{ else }}❌ Wrong password{{ end }}
+    </p>
+  </div>
+
+  <div class="flag-content" id="flag-content-{{ $id }}" style="display:none">
+    <div class="flag-revealed">
+      <span class="flag-label">🏴 Flag</span>
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>
+
+<script>
+function unlockFlag(id, expectedHash, password) {
+  const hash = CryptoJS.SHA256(password).toString();
+  if (hash === expectedHash) {
+    document.getElementById('flag-' + id).style.display = 'none';
+    document.getElementById('flag-content-' + id).style.display = 'block';
+  } else {
+    const err = document.getElementById('flag-error-' + id);
+    err.style.display = 'block';
+    setTimeout(() => err.style.display = 'none', 2000);
+  }
+}
+</script>

@@ -1,6 +1,6 @@
 baseURL                = "https://nemodzilla.xyz/"
 languageCode           = "fr"
-title                  = "CTF Writeups"
+title                  = "Nemo's Website"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage         = false
@@ -14,3 +14,4 @@ hasCJKLanguage         = false
 [permalinks]
     post = "/p/:slug/"
     page = "/:slug/"
+
