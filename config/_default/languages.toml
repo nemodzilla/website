@@ -15,36 +15,68 @@
             icon = "home"
 
     [[fr.menus.main]]
-        identifier = "writeups"
-        name       = "Writeups"
-        url        = "/fr/post/"
+        identifier = "about"
+        name       = "À propos"
+        url        = "/about/"
         weight     = 2
         [fr.menus.main.params]
-            icon = "hash"
+            icon = "user"
+
+    [[fr.menus.main]]
+        identifier = "writeups"
+        name       = "Writeups"
+        url        = "/post/"
+        weight     = 3
+        [fr.menus.main.params]
+            icon = "chevron-right"
+
+    [[fr.menus.main]]
+        identifier = "tips"
+        name       = "Astuces"
+        url        = "/tips/"
+        weight     = 4
+        [fr.menus.main.params]
+            icon = "dots"
 
     [[fr.menus.main]]
         identifier = "categories"
         name       = "Catégories"
-        url        = "/fr/categories/"
-        weight     = 3
+        url        = "/categories/"
+        weight     = 5
         [fr.menus.main.params]
             icon = "categories"
 
     [[fr.menus.main]]
         identifier = "search"
         name       = "Recherche"
-        url        = "/fr/search/"
-        weight     = 4
+        url        = "/search/"
+        weight     = 6
         [fr.menus.main.params]
             icon = "search"
 
     [[fr.menus.main]]
         identifier = "archives"
         name       = "Archives"
-        url        = "/fr/archives/"
-        weight     = 5
+        url        = "/archives/"
+        weight     = 7
         [fr.menus.main.params]
             icon = "archives"
+
+    [[fr.menus.social]]
+        identifier = "github"
+        name       = "GitHub"
+        url        = "https://github.com/nemodzilla"
+        weight     = 1
+        [fr.menus.social.params]
+            icon = "brand-github"
+
+    [[fr.menus.social]]
+        identifier = "linkedin"
+        name       = "LinkedIn"
+        url        = "https://www.linkedin.com/in/noemie-mancini/"
+        weight     = 2
+        [fr.menus.social.params]
+            icon = "linkedin"
 
 [en]
     languageName = "🇬🇧 English"
@@ -63,49 +95,65 @@
             icon = "home"
 
     [[en.menus.main]]
-        identifier = "writeups"
-        name       = "Writeups"
-        url        = "/en/post/"
+        identifier = "about"
+        name       = "About"
+        url        = "/about/"
         weight     = 2
         [en.menus.main.params]
-            icon = "hash"
+            icon = "user"
+
+    [[en.menus.main]]
+        identifier = "writeups"
+        name       = "Writeups"
+        url        = "/post/"
+        weight     = 3
+        [en.menus.main.params]
+            icon = "chevron-right"
+
+    [[en.menus.main]]
+        identifier = "tips"
+        name       = "Tips"
+        url        = "/tips/"
+        weight     = 4
+        [en.menus.main.params]
+            icon = "dots"
 
     [[en.menus.main]]
         identifier = "categories"
         name       = "Categories"
-        url        = "/en/categories/"
-        weight     = 3
+        url        = "/categories/"
+        weight     = 5
         [en.menus.main.params]
             icon = "categories"
 
     [[en.menus.main]]
         identifier = "search"
         name       = "Search"
-        url        = "/en/search/"
-        weight     = 4
+        url        = "/search/"
+        weight     = 6
         [en.menus.main.params]
             icon = "search"
 
     [[en.menus.main]]
         identifier = "archives"
         name       = "Archives"
-        url        = "/en/archives/"
-        weight     = 5
+        url        = "/archives/"
+        weight     = 7
         [en.menus.main.params]
             icon = "archives"
 
-    [[fr.menus.main]]
-        identifier = "tips"
-        name       = "Astuces"
-        url        = "/fr/tips/"
-        weight     = 7
-        [fr.menus.main.params]
-            icon = "hash"
+    [[en.menus.social]]
+        identifier = "github"
+        name       = "GitHub"
+        url        = "https://github.com/nemodzilla"
+        weight     = 1
+        [en.menus.social.params]
+            icon = "brand-github"
 
-    [[en.menus.main]]
-        identifier = "tips"
-        name       = "Tips"
-        url        = "/en/tips/"
-        weight     = 7
-        [en.menus.main.params]
-            icon = "hash"
+    [[en.menus.social]]
+        identifier = "linkedin"
+        name       = "LinkedIn"
+        url        = "https://www.linkedin.com/in/noemie-mancini/"
+        weight     = 2
+        [en.menus.social.params]
+            icon = "linkedin"

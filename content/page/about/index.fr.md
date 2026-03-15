@@ -1,13 +1,7 @@
 ---
 title: "À propos"
 slug: "about"
-menu:
-    main:
-        weight: 2
-        params:
-            icon: user
 ---
-
 Actuellement en dernière année d'alternance chez Airbus Helicopters, mon parcours a débuté à l'IUT Réseau Télécom et s'est poursuivi en école d'ingénieur à Laval, avec une spécialisation en cybersécurité.
 
 ## 🎓 Formation

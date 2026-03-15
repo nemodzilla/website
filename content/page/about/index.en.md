@@ -1,13 +1,7 @@
 ---
 title: "About"
 slug: "about"
-menu:
-    main:
-        weight: 2
-        params:
-            icon: user
 ---
-
 Currently in my final year of apprenticeship at Airbus Helicopters, my journey started at the IUT Network Telecom and continued at an engineering school specializing in cybersecurity.
 
 ## 🎓 Education

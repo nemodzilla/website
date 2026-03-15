@@ -1,8 +1,7 @@
 baseURL                = "https://nemodzilla.xyz/"
-languageCode           = "fr"
+languageCode           = "fr-fr"
 title                  = "Nemo's Website"
 defaultContentLanguage = "fr"
-defaultContentLanguageInSubdir = true
 hasCJKLanguage         = false
 
 [[module.imports]]

@@ -1,3 +1,0 @@
----
-title: "Nemo's Website"
----

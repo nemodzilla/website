@@ -3,7 +3,7 @@ title: Liens
 links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
-    website: https://github.com/Hekethys
+    website: https://github.com/nemodzilla
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: Root-Me
     description: The fast, easy, and affordable way to train your hacking skills.
@@ -17,9 +17,4 @@ links:
     description: Platform dedicated to the practice of OSINT
     website: https://challenges.osintopia.fr/profil-public/Nemodzilla
     image: https://i.postimg.cc/Prg6QTnC/ozint-eu-logo.jpg
-menu:
-    main: 
-        weight: 3
-        params:
-            icon: link
 ---
